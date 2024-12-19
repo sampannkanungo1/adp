@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome to SOA Restaurant</title>
+	<meta charset="utf-8">
+	<meta name="author" content="pixelhint.com">
+	<meta name="description" content="Sublime Stunning free HTML5/CSS3 website template"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fancybox.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/promotion.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fancybox.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<section class="billboard light">
+		<header class="wrapper light">
+			<a href="#"><img class="logo" src="./img/logo.png" alt="Beijing Chinese Restaurant Logo"/></a>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="./menu.html">Menu</a></li>
+					<li><a href="./karaoke.html">Karaoke/Party</a></li>
+					<li><a href="./promotions.html">Book Your Seats</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="caption light animated wow fadeInDown clearfix">
+			<h1>Book Your Seats</h1>
+			<p></p>
+			<hr>
+		</div>
+		<div class="shadow"></div>
+		
+	</section><!--  End billboard  -->
+
+	<div class="form-container">
+        <h2>Restaurant Seat Booking</h2>
+        <form action="/submit_booking" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Booking Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="people">Number of People:</label>
+            <select id="people" name="people" required>
+                <option value="">Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <label for="comments">Special Requests or Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Add any special requests here..."></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+
+
+
+
+
+	<footer>
+		<div class="wrapper">
+			<div class="rights">
+				<p>All Rights Reserved 2024 - SOA Restaurant</p>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="./menu.html">Menu</a></li>
+					<li><a href="./karaoke.html">Karaoke/Party</a></li>
+					<li><a href="./promotions.html">Book Your Seats</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>		
+	</footer><!--  End footer  -->
+</body>
+</html>
+
